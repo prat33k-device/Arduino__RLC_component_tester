@@ -49,7 +49,7 @@ const int rs = 7, en = 6, d4 = 2, d5 = 3, d6 = 4, d7 = 5;
 
 // ohm meter
 
-const int resistanceRead = A0;    // A0
+const int resistanceRead = 0;    // A0
 float R ;
 float Rknown = 1.0;        // int Kohms reference resistance
 
