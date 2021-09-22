@@ -40,6 +40,7 @@ void loop() {
   // print
 
   float C = (float)T * 1000.0f / r;     // in uF 
+  lcd.clear();
   lcd.setCursor(0, 0);
   lcd.print(C);
   lcd.print(" uF");
@@ -61,5 +62,6 @@ void loop() {
   }
 
   pinMode(dischargePin, INPUT);
+  delay(1000);
   
 }

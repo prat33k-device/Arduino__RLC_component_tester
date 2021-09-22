@@ -78,7 +78,8 @@ void loop() {
   float Vout = float(raw) * 5.0 / 1023.0; 
   float Vratio = 5.0 / Vout;
   R = Rknown / (Vratio - 1.0);
-  
+
+  lcd.clear();
   lcd.setCursor(0,0);
   lcd.print("Vout = ");
   lcd.print(Vout);
